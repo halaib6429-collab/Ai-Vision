@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Project</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="w-full">
+    <header class="bg-slate-700 text-white shadow-2xl">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+        <!-- Logo -->
+        <h1 class="text-2xl font-bold text-blue-400">AI<span class="text-[rgb(217,12,209)]">Vision</span></h1>
+        <!-- Links -->
+        <nav class="hidden md:flex space-x-8 text-slate-300">
+            <a href="#" class="hover:text-[rgb(217,12,209)] transition">Home</a>
+            <a href="#" class="hover:text-[rgb(217,12,209)]  transition">Services</a>
+            <a href="#" class="hover:text-[rgb(217,12,209)]  transition">Projects</a>
+            <a href="#" class="hover:text-[rgb(217,12,209)]  transition">Team</a>
+            <a href="#" class="hover:text-[rgb(217,12,209)]  transition">Contact</a>
+        </nav>
+        <!-- Button -->
+        <button class="bg-[rgb(217,12,209)] hover:bg-[rgb(176,11,169)]  px-5 py-2 rounded-lg transition  text-bold">Get Started</button>
+        </div>
+    </header>
+
+
+    <section class="sec1 bg-slate-900 text-white py-20 pb-2">
+        <section class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 md:text-center items-center gap-10">
+        <!-- Text -->
+        <div>
+            <h1 class="text-4xl md:text-5xl font-bold leading-tight">
+            Build Smart <span class="text-[rgb(217,12,209)]">Digital Solutions</span>
+            For Your <span class="text-blue-400">Business</span>
+            </h1>
+            <p class="text-slate-400 mt-6">
+            We create modern websites, smart AI systems,
+            and powerful digital experiences to help
+            businesses grow faster in the digital world.
+            </p>
+            <div class="ev flex md:justify-center">
+                <div class="ex flex items-center mt-4">
+                    <div class="w-6 h-6 bg-[rgb(217,12,209)] rounded-full flex items-center justify-center">
+                        <i class="fas fa-check text-white "></i></div>
+                        <span class="mr-4 ml-1">10+ Years Experience</span>
+                </div>
+                <div class="ex flex items-center mt-4">
+                    <div class="w-6 h-6 bg-[rgb(217,12,209)] rounded-full flex items-center justify-center">
+                        <i class="fas fa-check text-white "></i></div>
+                        <span class="mr-4 ml-1">500+ clients</span>
+                </div>
+                <div class="ex flex items-center mt-4">
+                    <div class="w-6 h-6 bg-[rgb(217,12,209)] rounded-full flex items-center justify-center">
+                        <i class="fas fa-check text-white "></i></div>
+                        <span class="mr-4 ml-1">Professional Team</span>
+                </div>
+            </div>
+            <!-- Buttons -->
+            <div class="mt-8 flex md:justify-center gap-4">
+            <button class="border hover:shadow-[0_0_25px_rgba(217,12,209,0.7)] border-[rgb(217,12,209)]  text-[rgb(217,12,209)]   px-6 py-3 rounded-lg font-semibold hover:bg-[rgb(217,12,209)]  hover:text-black transition">
+                Start Your Journey Now 
+            </button>
+            <button class="border hover:shadow-[0_0_25px_rgba(59,130,246,0.7)] border-blue-500 text-blue-500 px-6 py-3 rounded-lg hover:bg-blue-500 hover:text-black transition">
+                <i class="fas fa-play mr-1 text-blue-400"></i> Watch the Video
+            </button>
+            </div>
+        </div>
+        <!-- Image -->
+        <section class="relative md:text-center overflow-hidden bg-slate-900">
+            <video autoplay muted loop class="w-full h-full object-cover md:hidden lg:flex">
+            <source src="images/Futuristic Digital Globe(MP4).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+            <!-- Floating Box -->
+            <div class="absolute bottom-3 md:text-center left-3 bg-slate-800 p-4 rounded-lg shadow-xl flex items-center gap-3">
+            <div class="bg-blue-500 text-black p-2 rounded-md">
+                🚀
+            </div>
+            <div class=" md:text-center">
+                <p class="text-sm text-slate-400">Projects</p>
+                <h4 class="text-white font-bold">120+</h4>
+            </div>
+        </div>
+    </section>
+</section>
+    
+    <section class="sec2 bg-slate-900 py-20 lg:mx-16">
+        <div class="head text-center">
+            <h1 class="text-[rgb(217,12,209)] text-4xl md:text-5xl font-bold leading-tight pb-6">Our Integrated Services</h1>
+            <p class="relative pb-20 text-slate-200 font-thin">We offer acomprehensive reange of digital solution to grow your business
+                <span class="absolute bottom-12 left-1/2 transform -translate-x-1/2 w-20 h-1 bg-blue-500"></span>
+            </p>
+        </div>
+        <div class="flex flex-col md:flex-row gap-8 px-6 w-full">
+        <!-- Box 1 -->
+        <div class="flex-1 bg-gray-800 hover:shadow-[0_0_15px_rgba(217,12,209,0.7)] p-8 rounded-xl hover:scale-105 hover:border-2 hover:border-[rgb(217,12,209)] transition">
+            <i class="fas fa-poll text-[rgb(217,12,209)] text-4xl mb-4"></i>
+            <h3 class="text-white text-xl font-bold mb-4">Search Engine Optimization</h3>
+            <p class="text-gray-400 mb-4">We ensure your website appears on the first pages of search engine and increases 
+                qualified visitors></p>
+            <ul class="text-gray-300 text-left space-y-2">
+                <li><i class="fas fa-check text-green-400 mr-2"></i>Keyword Analysis</li>
+                <li><i class="fas fa-check text-green-400 mr-2"></i>Precise Targeting</li>
+                <li><i class="fas fa-check text-green-400 mr-2"></i>Content Optimization</li>
+            </ul>
+        </div>
+        <!-- Box 2 -->
+        <div class=" flex-1 hover:shadow-[0_0_15px_rgba(59,130,246,0.7)] bg-gray-800 p-8 rounded-xl hover:scale-105 transition hover:border-2 hover:border-blue-500">
+            <i class="fab fa-facebook text-blue-500 text-4xl mb-4"></i>
+            <h3 class="text-white text-xl font-bold mb-4">Social Media Marketing</h3>
+            <p class="text-gray-400 mb-4">We ensure your website appears on the first pages of search engine and increases 
+                qualified visitors></p>
+            <ul class="text-gray-300 text-left space-y-2">
+                <li><i class="fas fa-check text-green-400 mr-2"></i>Campaign Planning</li>
+                <li><i class="fas fa-check text-green-400 mr-2"></i>Precise Targeting</li>
+                <li><i class="fas fa-check text-green-400 mr-2"></i>Content Creation</li>
+            </ul>
+        </div>
+        <!-- Box 3 -->
+        <div class="flex-1 bg-gray-800 hover:shadow-[0_0_15px_rgba(217,12,209,0.7)] p-8 rounded-xl hover:scale-105 transition hover:border-2 hover:border-[rgb(217,12,209)]">
+            <i class="fas fa-code text-[rgb(217,12,209)] text-4xl mb-4"></i>
+            <h3 class="text-white text-xl font-bold mb-4">Website Design & Development</h3>
+            <p class="text-gray-400 mb-4">We ensure your website appears on the first pages of search engine and increases 
+                qualified visitors></p>
+            <ul class="text-gray-300 text-left space-y-2">
+            <li><i class="fas fa-check text-green-400 mr-2"></i>Responsive Design</li>
+            <li><i class="fas fa-check text-green-400 mr-2"></i>Modern UI</li>
+            <li><i class="fas fa-check text-green-400 mr-2"></i>Fast Performance</li>
+            </ul>
+        </div>
+        </div>
+    </section>
+
+    <section class="sec3 bg-gradient-to-r from-blue-400 to-[rgb(217,12,209)] pt-16 px-6 md:px-20 flex  flex-col md:flex-row justify-center items-center text-center text-slate-900">
+
+        <!-- Box 1 -->
+        <div class="md:mr-20 mb-20">
+            <h2 class="text-5xl font-bold">+500</h2>
+            <p class="text-xl mt-2 text-gray-800">Clients Worldwide</p>
+        </div>
+        <!-- Box 2 -->
+        <div class="md:mr-20 mb-20">
+            <h2 class="text-5xl font-bold">+1000</h2>
+            <p class="text-xl mt-2 text-gray-800">Projects Completed</p>
+        </div>
+        <!-- Box 3 -->
+        <div class="md:mr-20 mb-20">
+            <h2 class="text-5xl font-bold">+50</h2>
+            <p class="text-xl mt-2 text-gray-800">Marketing Experts</p>
+        </div>
+        <!-- Box 4 -->
+        <div class="md:mr-20 mb-20">
+            <h2 class="text-5xl font-bold">+10</h2>
+            <p class="text-xl mt-2 text-gray-800">Years Of Experience</p>
+        </div>
+    </section>
+
+<div class="text-center grid">
+    <h1 class="text-[rgb(217,12,209)] text-4xl md:text-5xl sm:text-xl font-bold leading-tight pb-6 pt-10">Our Creative Team</h1>
+    <p class="pb-4 text-slate-200 md:text-xl sm:text-xl font-thin">An elite group of the best digital marketing experts</p>
+</div>
+
+<section class="bg-slate-900 py-20">
+<div class="max-w-7xl mx-auto px-6">
+    
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+    
+    <!-- Card 1 -->
+    <div class="group bg-slate-800 rounded-xl overflow-hidden hover:shadow-lg hover:-translate-y-2 transition duration-300 hover:shadow-blue-500/30">
+        <!-- top -->
+        <div class="relative h-60 flex items-center justify-center bg-gradient-to-r from-blue-500 to-purple-500">
+        <!-- avatar -->
+            <div class="w-20 h-20 rounded-full bg-white/90 flex items-center justify-center text-gray-400 text-3xl">
+                <i class="fas fa-user"></i>
+            </div>
+            <!-- overlay -->
+            <div class="absolute inset-0 bg-blue-600/70 opacity-0 group-hover:opacity-100 transition flex items-center justify-center gap-4">
+    
+                <a href="#" class="w-10 h-10 bg-white rounded-full flex items-center justify-center text-blue-500">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+    
+                <a href="#" class="w-10 h-10 bg-white rounded-full flex items-center justify-center text-blue-500">
+                    <i class="fab fa-twitter"></i>
+                </a>
+    
+                <a href="#" class="w-10 h-10 bg-white rounded-full flex items-center justify-center text-blue-500">
+                    <i class="fab fa-instagram"></i>
+                </a>
+    
+            </div>
+        </div>
+    
+        <!-- bottom -->
+            <div class="text-center p-6">
+                <h3 class="text-white font-semibold text-lg">Alex clark</h3>
+                <p class="text-blue-400 text-sm mt-1">Marketing Director</p>
+                <p class="text-gray-400 text-xs mt-2">10 years experience in digital marketing</p>
+            </div>
+        </div>
+    
+    <!-- Card 2 -->
+    <div class="group bg-slate-800 rounded-xl overflow-hidden hover:shadow-lg hover:-translate-y-2 transition duration-300 hover:shadow-pink-500/30">
+            
+        <div class="relative h-60 flex items-center justify-center bg-gradient-to-r from-purple-500 to-pink-500">
+    
+            <div class="w-20 h-20 rounded-full bg-white/90 flex items-center justify-center text-gray-400 text-3xl">
+                <i class="fas fa-user"></i>
+            </div>
+    
+            <div class="absolute inset-0 bg-pink-600/70 opacity-0 group-hover:opacity-100 transition flex items-center justify-center gap-4">
+                <a href="#" class="w-10 h-10 bg-white rounded-full flex items-center justify-center text-pink-500">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="w-10 h-10 bg-white rounded-full flex items-center justify-center text-pink-500">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="w-10 h-10 bg-white rounded-full flex items-center justify-center text-pink-500">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    
+            <div class="text-center p-6">
+                <h3 class="text-white font-semibold text-lg">Marta Scott</h3>
+                <p class="text-pink-400 text-sm mt-1">SEO Specialist</p>
+                <p class="text-gray-400 text-xs mt-2">Specialist in search engine optimization</p>
+            </div>
+    </div>
+    
+    <!-- Card 3 -->
+    <div class="group bg-slate-800 rounded-xl overflow-hidden hover:shadow-lg hover:-translate-y-2 transition duration-300 hover:shadow-green-500/30">
+            
+        <div class="relative h-60 flex items-center justify-center bg-gradient-to-r from-green-500 to-teal-500">
+    
+            <div class="w-20 h-20 rounded-full bg-white/90 flex items-center justify-center text-gray-400 text-3xl">
+                <i class="fas fa-user"></i>
+            </div>
+    
+            <div class="absolute inset-0 bg-green-600/70 opacity-0 group-hover:opacity-100 transition flex items-center justify-center gap-4">
+    
+                <a href="#" class="w-10 h-10 bg-white rounded-full flex items-center justify-center text-green-500">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="w-10 h-10 bg-white rounded-full flex items-center justify-center text-green-500">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="w-10 h-10 bg-white rounded-full flex items-center justify-center text-green-500">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    
+            <div class="text-center p-6">
+                <h3 class="text-white font-semibold text-lg">Lucas Anderson</h3>
+                <p class="text-green-400 text-sm mt-1">Web Developer</p>
+                <p class="text-gray-400 text-xs mt-2">Expert in web development</p>
+            </div>
+    </div>
+    
+    <!-- Card 4 -->
+    <div class="group bg-slate-800 rounded-xl overflow-hidden hover:shadow-lg hover:-translate-y-2 transition duration-300 hover:shadow-orange-500/30">
+            
+        <div class="relative h-60 flex items-center justify-center bg-gradient-to-r from-yellow-400 to-orange-500">
+    
+            <div class="w-20 h-20 rounded-full bg-white/90 flex items-center justify-center text-gray-400 text-3xl">
+                <i class="fas fa-user"></i>
+            </div>
+    
+            <div class="absolute inset-0 bg-orange-600/70 opacity-0 group-hover:opacity-100 transition flex items-center justify-center gap-4">
+    
+                <a href="#" class="w-10 h-10 bg-white rounded-full flex items-center justify-center text-orange-500">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="w-10 h-10 bg-white rounded-full flex items-center justify-center text-orange-500">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="w-10 h-10 bg-white rounded-full flex items-center justify-center text-orange-500">
+                    <i class="fab fa-instagram"></i>
+                </a>
+        </div>
+    </div>
+    
+            <div class="text-center p-6">
+                <h3 class="text-white font-semibold text-lg">Emma Wilson</h3>
+                <p class="text-orange-400 text-sm mt-1">Graphic Designer</p>
+                <p class="text-gray-400 text-xs mt-2">Specialist in brand identity design</p>
+            </div>
+        </div>
+    
+    </div>
+</div>
+</section>
+<section class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 px-4 sm:px-6 md:px-16 lg:px-28 py-12 gap-6 bg-gradient-to-r from-blue-400 to-[rgb(217,12,209)]">
+<!-- Form -->
+<div class="bg-gray-800 p-6 md:p-8 rounded-3xl">
+        <h2 class="text-white mb-3 text-2xl text-left font-bold">Contact Us</h2>
+        <input type="text" placeholder="Full Name" class="focus:outline-none focus:ring-2 focus:ring-[rgb(217,12,209)] my-2 rounded-lg bg-gray-600 py-3 w-full pl-3" required/>
+        <input type="email" placeholder="Email Address" class="focus:outline-none focus:ring-2 focus:ring-[rgb(217,12,209)] my-2 rounded-lg bg-gray-600 py-3 w-full pl-3" required/>
+        <textarea placeholder="Your Message..." class="focus:outline-none focus:ring-2 focus:ring-[rgb(217,12,209)] my-2 rounded-lg bg-gray-600 py-3 w-full pl-3 h-28" required></textarea>
+        <button class="w-full bg-[rgb(217,12,209)] h-12 rounded-lg hover:shadow-[0_0_15px_rgba(217,12,209,0.7)] mt-2">Send Message</button>
+    </div>
+    <!-- Contact Info -->
+    <div class="px-0 md:px-14 pt-2">
+        <h2 class="text-white mb-3 text-2xl text-left font-bold">Contact Information</h2>
+        <div class="flex items-center my-3"> 
+            <div class="mr-3">
+                <i class="fas fa-location-dot text-white p-3 bg-gray-800 rounded-lg"></i>
+            </div>
+        <div>
+        <span class="font-thin text-gray-300 text-sm">Address</span>
+        <p class="font-bold mt-0 mb-1">Tartous, Syria</p>
+        </div>
+    </div>
+    <div class="flex items-center my-3"> 
+            <div class="mr-3">
+                <i class="fas fa-phone-alt text-white p-3 bg-gray-800 rounded-lg"></i>
+            </div>
+        <div>
+            <span class="font-thin text-gray-300 text-sm">Phone</span>
+            <p class="font-bold mt-0 mb-1">+963 992393395</p>
+        </div>
+    </div>
+        <div class="flex items-center my-3"> 
+            <div class="mr-3">
+                <i class="fas fa-envelope text-white p-3 bg-gray-800 rounded-lg"></i>
+            </div>
+        <div>
+            <span class="font-thin text-gray-300 text-sm">Email</span>
+            <p class="font-bold mt-0 mb-1">halaib123@gmail.com</p>
+        </div>
+    </div>
+        <div class="rounded-lg bg-gray-800 h-40 w-full flex justify-center items-center mt-4">
+            <i class="fas fa-map text-[rgba(255,255,255,0.6)]"></i>
+        <span class="ml-2 text-[rgba(255,255,255,0.6)]">Site Map</span>
+    </div>
+</div>
+</section>
+
+<footer class="flex justify-between items-center py-3 lg:px-12 md:px-12 sm:flex-row flex-col">
+    <div>
+        <p class="text-[rgba(255,255,255,0.6)]"><span class="text-[rgb(217,12,209)]">&copy;2026</span> Ai Vision.All right reversed.</p>
+    </div>
+    <div class="text-[rgba(255,255,255,0.6)]">
+        <a href="#"><i class="fab fa-facebook hover:text-[rgb(217,12,209)] duration-300 transition-all"></i></a>
+        <a href="#"><i class="fab fa-twitter hover:text-[rgb(217,12,209)] duration-300 transition-all"></i></a>
+        <a href="#"><i class="fab fa-linkedin hover:text-[rgb(217,12,209)] duration-300 transition-all"></i></a>
+        <a href="#"><i class="fab fa-instagram hover:text-[rgb(217,12,209)] duration-300 transition-all"></i></a>
+    </div>
+</footer>
+</body>
+</html>
